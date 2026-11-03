@@ -1,0 +1,172 @@
+/* FONT */
+@font-face {
+    font-family: 'montserratbold';
+    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');}
+        
+@font-face {
+    font-family: 'montserratregular';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');}
+/* .FONT */
+
+/* BODY */
+body{
+    background-color: #FDFCF8;
+}
+
+#bghome{
+    position: relative;
+    background: linear-gradient(45deg, #C6D8FF 0%, #71A9F7 50%, #6B5CA5 100%);
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease alternate infinite;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#footerindex{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footerbtmtext{
+    color: #4C1036;
+}
+/* .BODY */
+
+/* NAV BAR */
+.navbar{
+    background-color: #4C1036;
+    font-family: 'montserratbold';
+}
+
+.navbartexto{
+    color: #C6D8FF;
+    font-family: 'montserratregular';
+    
+}
+
+.navbartexto:hover{
+    color: #71A9F7;
+    text-decoration: #71A9F7 wavy underline;
+}
+
+.navbardropdown{
+    background-color: #72195A;
+}
+
+#navbarhome{
+    font-family: 'montserratbold';
+}
+/* .NAV BAR */
+
+/* TEXT */
+h1{
+    font-family: 'montserratbold';
+    color: #4C1036;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#h1home{
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+p{
+    font-family: 'montserratregular';
+    color: #4C1036;
+}
+
+#pintro{
+    color: #6B5CA5;
+    font-family: 'montserratbold';
+    font-size: 30px;
+}
+
+#pintro2{
+    margin-top: 10px;
+}
+/* .TEXT */
+
+/* INTRO */
+.containerintro{
+    margin: 10px 0px 10px 0px;
+}
+
+.carousel{
+    width: 50%;
+    margin: auto;
+}
+
+.card-img-top{
+    border-radius: 0%;
+}
+/* .INTRO */
+
+/* TIMETABLE */
+table{
+    margin: auto;
+    border: 1px solid #4C1036;
+    width: 80%;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    color: #72195A;
+}
+
+tr{
+    color: #6B5CA5;
+}
+
+tr:nth-child(even) {
+  background-color: #C6D8FF;
+}
+/* .TIMETABLE */
+
+/* FORM */
+.form{
+    margin-bottom: 10px;
+    color: #4C1036;
+    font-family: 'montserratregular';
+}
+/* .FORM */
+
+/* WORK */
+.workaccordion{
+    background-color: #72195A;
+    color: #FDFCF8;
+    font-family: 'montserratregular';
+}
+
+.liwork{
+    font-family: 'montserratregular';
+    color: #6B5CA5;
+    margin-bottom: 10px;
+}
+/* .WORK */
